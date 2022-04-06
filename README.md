@@ -33,4 +33,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Useful links
 * [REACT!!!! go to the source!](https://reactjs.org/)
 * [React router v6](https://reactrouter.com/docs/en/v6/getting-started/overview)
-* [Gonzy Pozzo](https://twitter.com/goncy/status/1470745884472270857)
+* [Gonzy Pozzo](https://twitter.com/goncy/status/1470745884472270857) (Spanish)
