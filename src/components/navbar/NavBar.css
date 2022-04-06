@@ -1,0 +1,26 @@
+.navbar {
+    background-color: midnightblue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    display: flex;
+}
+
+li {
+    padding: 1em 2em;
+}
+
+/* TODO: check this, shouldn't be necessary to know there is "a" behind "Link" component */
+li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+}
+
+li:hover {
+    background-color: darkslategray;
+}

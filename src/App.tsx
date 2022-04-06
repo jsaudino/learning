@@ -1,12 +1,24 @@
 import React from 'react';
 import './App.css';
-import ALittleComponent from "./components/ALittleComponent";
+import { BrowserRouter, Routes , Route } from "react-router-dom";
+
+
+import ALittleComponent from "./pages/ALittleComponent";
+import NavBar from "./components/navbar/NavBar";
+import Home from "./pages/Home";
+import Kitchen from "./pages/Kitchen";
 
 function App() {
   return (
-    <div className="App">
-      <ALittleComponent/>
-    </div>
+      <BrowserRouter>
+          <NavBar/>
+          <Routes>
+              <Route path="/" element={<Home/>}/>
+              <Route path="/kitchen" element={<Kitchen/>}/>
+              <Route path="/office" element={<ALittleComponent/>}/>
+              <Route path="/other" element={<ALittleComponent/>}/>
+          </Routes>
+      </BrowserRouter>
   );
 }
 
