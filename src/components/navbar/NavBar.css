@@ -10,7 +10,7 @@ ul {
 }
 
 li {
-    padding: 1em 2em;
+    padding: 1em 0;
 }
 
 /* TODO: check this, shouldn't be necessary to know there is "a" behind "Link" component */
@@ -18,7 +18,7 @@ li a {
     color: white;
     text-align: center;
     text-decoration: none;
-    text-align: center;
+    padding: 1em 2em;
 }
 
 li:hover {
